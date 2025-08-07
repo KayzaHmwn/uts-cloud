@@ -14,7 +14,7 @@ $result = $conn->query($sql);
 <body class="bg-light">
 
   <div class="container mt-5">
-    <h1 class="text-center mb-4">Produk Kami PT.Kesehatan</h1>
+    <h1 class="text-center mb-4">Produk Kami PT.Kesehatan Jasmani</h1>
 
     <div class="row">
       <?php while ($row = $result->fetch_assoc()) { ?>
